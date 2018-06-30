@@ -1,0 +1,326 @@
+            <section class="cover imagebg height-70 text-center" data-overlay="4">
+                <div class="background-image-holder"><img alt="background" src="<%= static_path(@conn, "/images/jumbotron.jpeg") %>"></div>
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Streamline your workflow with Stack</h1>
+                            <p class="lead"> Clean and contemporary design to suit a range of purposes. </p>
+                            <div class="boxed boxed--lg bg--white text-left">
+                                <form class="form--horizontal row m-0">
+                                    <div class="col-md-3"> <input type="text" name="keywords" placeholder="Keywords"> </div>
+                                    <div class="col-md-3"> <input type="text" name="location" placeholder="Location"> </div>
+                                    <div class="col-md-4">
+                                        <div class="input-select"> <select>
+									<option selected="selected" value="Default">Select An Option</option>
+									<option value="option1">Option 1</option>
+									<option value="option2">Option 2</option>
+									<option value="option3">Option 3</option>
+								</select> </div>
+                                    </div>
+                                    <div class="col-md-2"> <button type="submit" class="btn btn--primary type--uppercase">Search</button> </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                        <section class="bg--secondary">
+                <div class="container">
+                    <div class="text-center">
+                        <h2>All Projects</h2> 
+                    </div>   <br><br>                 
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Amara Y1</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room3.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>The Residence 12</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                                                <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room4.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Neptune 7</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room4.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Neptune 7</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room4.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Neptune 7</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room4.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Neptune 7</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Amara Y1</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room3.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>The Residence 12</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                                                <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room4.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Neptune 7</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room4.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Neptune 7</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                            <div class="text-center">
+                                <div class="pagination">
+                                    <a class="pagination__prev" href="#" title="Previous Page">&laquo;</a>
+                                    <ol>
+                                        <li>
+                                            <a href="#">1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">2</a>
+                                        </li>
+                                        <li class="pagination__current">3</li>
+                                        <li>
+                                            <a href="#">4</a>
+                                        </li>
+                                    </ol>
+                                    <a class="pagination__next" href="#" title="Next Page">&raquo;</a>
+                                </div>
+                            </div>
+
+            </section>

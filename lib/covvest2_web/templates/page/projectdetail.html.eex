@@ -1,0 +1,173 @@
+            <section class="switchable bg--secondary">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-5"> <img alt="Image" class="border--round box-shadow-wide" src="<%= static_path(@conn, "/images/room1.jpeg") %>"> 
+
+
+                            <h2>Purchase Token</h2>
+                                    <table class="border--round table--alternate-row">
+                                        <tr><td>Asset Code</td><td>16235-123 <a href="#">(Check on blockchain)</a></td></tr>
+                                        <tr><td>Token Supply</td><td>100,000 Token</td></tr>
+                                        <tr><td>Price per Token</td><td>1000 MMK</td></tr>
+                                        <tr><td>Remaining Token</td><td>30000 Token</td></tr>
+
+                                    </table>
+                            <div class="input-number">
+    <input type="number" name="quantity" placeholder="Quantity" value="1" min="1" max="10000" />
+    <div class="input-number__controls">
+        <span class="input-number__increase"><i class="stack-up-open"></i></span>
+        <span class="input-number__decrease"><i class="stack-down-open"></i></span>
+    </div>
+    <br><br>
+    <div>
+        <div class="text-center">
+    <a class="btn btn--primary btn--lg" href="#">
+        <span class="btn__text">BUY TOKEN</span>
+    </a>
+</div>
+    </div>
+</div>
+                        </div>
+                        <div class="col-md-6">
+                                                                <h2>Amara Y1</h2>
+                                <p class="lead"> Amara Residence <br> Yankin, Yangon </p>                                                                
+                                    <table class="border--round table--alternate-row">
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>70,000,000 MMK</td></tr>
+                                        <tr><td>Status</td><td>Closed</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+                            <div class="row switchable__text">
+                                <p class="lead"> 2 Bedroom, 1 Living Room, 1 Kitchen, 2 Bathroom</p>
+
+                                <p class="lead"> Luxurious apartment in the business district of Yangon. Located in the strategic area near to Myanmar Plaza, Inya Lake, Sedona Hotel. </p>                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg--dark">
+                <div class="container">
+                    <div class="text-center">
+                        <h1>Timeline</h1>
+                    </div><br><br> 
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="process-stepper clearfix" data-process-steps="4">
+                                <li class="active"> <span>Registered</span> </li>
+                                <li class="active"> <span>Fundraising</span> </li>
+                                <li> <span>Finish Construction</span> </li>
+                                <li> <span>Started Renting</span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="switchable feature-large switchable--switch bg--secondary space--xs">
+                    <div class="text-center">
+                        <h1>Operator Profile</h1>
+                    </div><br><br> 
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6"> <img alt="Image" class="border--round" src="<%= static_path(@conn, "/images/nicolas.jpg") %>"> </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="switchable__text">
+                                <div class="text-block">
+                                    <h2>Cameron Aung</h2> <span>Property Manager &amp; CEO</span>  of <a href="#">Lily Property</a></div>
+                                <p class="lead"> Launching an attractive and scalable website quickly and affordably is important for modern startups — Stack offers massive value without looking 'bargain-bin'. </p>
+                                <ul class="social-list list-inline list--hover">
+                                    <li class="list-inline-item"><a href="#"><i class="socicon socicon-mail icon icon--xs"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="socicon socicon-google icon icon--xs"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="socicon socicon-instagram icon icon--xs"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+
+                <div class="container">
+                    <div class="text-center">
+                        <h1>Calculation</h1>
+                    </div><br><br> 
+
+                    <h3>Cost Estimation</h3>
+                    <div class="row">
+                        <table class="border--round table--alternate-row">
+                            <thead>
+                            <tr><th>Component</th><th>Cost estimation (MMK)</th><th>Description</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Building Price</td><td>59,500,000</td><td></td></tr>
+                            <tr><td>Furniture</td><td>20,0000,000</td><td></td></tr>
+                            <tr><td>Interior Design</td><td>20,0000,000</td><td>Contractor fee and material</td></tr>
+                            <tr><td>Initial marketing</td><td>500,000</td><td>For internet marketing for 3 month budget</td></tr>
+                            <tr><td><b>TOTAL</b></td><td><b>100,0000,000</b></td><td></td></tr>
+                       </tbody>
+                        </table>
+                    </div>
+
+                    <h3>Annual Projected Income</h3>
+                    <div class="row">
+                        <table class="border--round table--alternate-row">
+                            <tr><th>Component</th><th>Description</th><th>Expected Annual Income</th></tr>
+                            <tr><td>Expected Income Rent</td><td>Occupancy rate 70%</td><td>8,400,000</td></tr>
+                            <tr><td>Operational cost</td><td>Security, staff salary</td><td>(1,000,000)</td></tr>                            
+                            <tr><td>Service Charges</td><td>by Apartment management</td><td>(700,000)</td></tr>
+                            <tr><td>Maintenance Fee</td><td></td><td>(1,400,000)</td></tr>                            
+                            <tr><td><b>TOTAL</b></td><td></td><td><b>10,0000,000</b></td></tr>
+                        </table>
+                    </div>                    
+                </div>
+            </section>
+            <section class="imagebg" data-overlay="4">
+                    <div class="text-center">
+                        <h1>Profit Distribution History</h1>
+                    </div><br><br> 
+                <div class="background-image-holder"> <img alt="background" src="img/hero-1.jpg"> </div>
+                <div class="container">
+                    <div class="row">
+                        <table class="border--round table--alternate-row">
+                            <thead>
+                            <tr><th>Date</th><th>Description</th><th>Amount</th><th>Report</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td col="4">No record found</td></tr>                            
+                            <tr><td><b>TOTAL</b></td><td></td><td><b>-</b></td><td></td></tr>
+                        </tbody>
+                        </table>
+                    </div>  
+                </div>
+            </section>
+            <section class="bg--secondary">
+                <div class="container">
+                                        <div class="text-center">
+                        <h1>Updates</h1>
+                    </div><br><br> 
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="process-1">
+                                <div class="process__item">
+                                    <h4>Proposal Registered<br></h4>
+                                    <p> Stack is built with customization and ease-of-use at its core — whether you're a seasoned developer or just starting out, you'll be making attractive sites faster than any traditional HTML template. </p>
+                                </div>
+                                <div class="process__item">
+                                    <h4>Possible buyer for 2,000, lakhs<br> from Bray Investments</h4>
+                                    <p> Stack is built with customization and ease-of-use at its core — whether you're a seasoned developer or just starting out, you'll be making attractive sites faster than any traditional HTML template. </p>
+                                </div>
+                                <div class="process__item">
+                                    <h4>Financial report<br> second quarter 2017</h4>
+                                    <p> Stack is built with customization and ease-of-use at its core — whether you're a seasoned developer or just starting out, you'll be making attractive sites faster than any traditional HTML template. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>

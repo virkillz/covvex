@@ -1,0 +1,202 @@
+
+
+            <section class="bg--secondary space--sm">
+                <div class="container">
+                            <div class="boxed boxed--border">
+                                <ul class="row row--list clearfix text-center">
+                                    <li class="col-md-4 col-6">
+                                        <span class="h6 type--uppercase type--fade">Balance</span>
+                                        <span class="h3">100,000 MMK</span>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <span class="h6 type--uppercase type--fade">Asset Owned</span>
+                                        <span class="h3">10</span>
+                                    </li>
+                                    <li class="col-md-4 col-6">
+                                        <span class="h6 type--uppercase type--fade">Total Profit Received</span>
+                                        <span class="h3">210,000 MMK</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="boxed boxed--lg boxed--border">
+                                <div class="text-block text-center">
+                                    <img alt="avatar" src="<%= static_path(@conn, "/images/arif.jpg") %>" class="image--sm" />
+                                    <span class="h5">Lucas Banks</span>
+                                    <span>Pro Account</span>
+                                </div>
+                                <hr>
+                                <div class="text-block">
+                                    <ul class="menu-vertical">
+                                        <li>
+                                            <a href="#" data-toggle-class=".account-tab:not(.hidden);hidden|#account-notifications;hidden">Asset balance</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle-class=".account-tab:not(.hidden);hidden|#account-billing;hidden">Transaction History</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle-class=".account-tab:not(.hidden);hidden|#account-profile;hidden">Profile</a>
+                                        </li>                                        
+                                        <li>
+                                            <a href="#" data-toggle-class=".account-tab:not(.hidden);hidden|#account-password;hidden">Password</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle-class=".account-tab:not(.hidden);hidden|#account-delete;hidden">Withdraw/Top up History</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="boxed boxed--lg boxed--border">
+                                <div id="account-notifications" class="account-tab">
+                                    <h4>Asset Balance Summary</h4>
+                                    <div class="boxed boxed--border bg--secondary">
+                                        <hr>
+                                                                            <table>
+                                        <tr><th>Asset Code</th><th>Asset Name</th><th>Balance</th><th></th></tr>
+
+                                        <tr>
+                                            <th>543726-234</th>
+                                            <th>Amara Y1</th>
+                                            <th>12,000</th>
+                                            <th><a class="btn" href="#">
+                                                <span class="btn__text">Blockchain Explorer</span></a>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>124224-210</th>
+                                            <th>Venus A2</th>
+                                            <th>9,00</th>
+                                            <th><a class="btn" href="#">
+                                                <span class="btn__text">Blockchain Explorer</span></a>
+                                            </th>
+                                        </tr>                                        
+
+                                    </table>
+                                    <hr>
+                                    </div>                                    
+                                </div>                                
+                                <div id="account-profile" class="hidden account-tab">
+                                    <h4>Profile</h4>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Real Name:</label>
+                                                <input type="text" name="name" value="Arif Yuliannur" />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Display Name:</label>
+                                                <input type="text" name="display-name" value="virkill" />
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label>Email Address:</label>
+                                                <input type="email" name="email" value="virkill@gmail.com" />
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label>Location:</label>
+                                                <input type="text" name="location" value="Yangon" />
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label>NRC:</label>
+                                                <input type="text" name="website" value="623747-2347-432" />
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label>Bio:</label>
+                                                <textarea rows="4" name="bio"></textarea>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="input-checkbox input-checkbox--switch">
+                                                    <input type="checkbox" name="public-profile" />
+                                                    <label></label>
+                                                </div>
+                                                <span>Allow my profile to be viewable by guests</span>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4">
+                                                <button type="submit" class="btn btn--primary type--uppercase">Save Profile</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div id="account-billing" class="hidden account-tab">
+                                    <h4>Transaction History</h4>
+                                    <div class="boxed boxed--border bg--secondary">
+                                        <hr>
+                                        <table>
+                                            <tr><th>Hash</th><th>Date</th><th>Asset</th><th>Amount</th><th>Type</th></tr>
+                                            <tr></tr>
+
+                                            <tr>
+                                                <td><a href="#">243789hasiodjaskj238uejao</a></td>
+                                                <td>14 June 2018</td>
+                                                <td>AMARA Y1</td>
+                                                <td>10,000</td>
+                                                <td>Token Sales Purchase</td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">72384237419ghasdjh23</a></td>
+                                                <td>14 June 2018</td>
+                                                <td>AMARA Y1</td>
+                                                <td>10,000</td>
+                                                <td>Token Sales Purchase</td>
+                                            </tr>                                            
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id="account-password" class="hidden account-tab">
+                                    <h4>Password</h4>
+                                    <p>Passwords must be at least 6 characters in length.</p>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <label>Old Password:</label>
+                                                <input type="password" name="old-password" />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>New Password:</label>
+                                                <input type="password" name="new-password" />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Retype New Password:</label>
+                                                <input type="password" name="new-password-confirm" />
+                                            </div>
+                                            <div class="col-lg-3 col-md-4">
+                                                <button type="submit" class="btn btn--primary type--uppercase">Save Password</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div id="account-delete" class="hidden account-tab">
+                                    <h4>Transaction History</h4>
+                                    <div class="boxed boxed--border bg--secondary">
+                                        <hr>
+                                        <table>
+                                            <tr><th>Hash</th><th>Date</th><th>Asset</th><th>Amount</th><th>Type</th></tr>
+                                            <tr></tr>
+
+                                            <tr>
+                                                <td><a href="#">243789hasiodjaskj238uejao</a></td>
+                                                <td>14 June 2018</td>
+                                                <td>AMARA Y1</td>
+                                                <td>10,000</td>
+                                                <td>Token Sales Purchase</td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#">72384237419ghasdjh23</a></td>
+                                                <td>14 June 2018</td>
+                                                <td>AMARA Y1</td>
+                                                <td>10,000</td>
+                                                <td>Token Sales Purchase</td>
+                                            </tr>                                            
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>

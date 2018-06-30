@@ -1,0 +1,455 @@
+
+            <section class="cover height-80 imagebg switchable siwtchable--switch" data-overlay="7">
+                <div class="background-image-holder">
+                    <img alt="background" src="images/jumbotron.jpeg" />
+                </div>
+                <div class="container pos-vertical-center">
+
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <div class="typed-headline">
+                                <span class="h1 inline-block">Invest in Myanmar real estate </span>
+                                <span class="h1 inline-block typed-text typed-text--cursor color--primary" data-typed-strings="in fraction, start at 1 USD, safely, on Blockchain"></span>
+                            </div>
+                            <p class="lead">
+                                    With vast development in Myanmar and its new spirit in democracy, <br> we democratize real-estate market to the people.
+                            </p>
+                            <a class="btn btn--primary type--uppercase" href="#">
+                                <span class="btn__text">
+                                    Learn more
+                                </span>
+                            </a>
+                            <span class="block type--fine-print">or
+                                <a href="index.html">register straight away</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end of container-->
+            </section>            
+            <section class="feature-large switchable switchable--switch">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6 col-md-6"> <img alt="Image" class="border--round box-shadow-wide" src="images/1000ky.jpg"> </div>
+                        <div class="col-lg-5 col-md-6">
+                            <div class="heading-block">
+                                <h2>Invest in property start from 1000 Kyat</h2>
+                            </div>
+                            <div class="text-block">
+                                <h5>For House Renting Operator</h5>
+                                <p> By tokenizing asset and raise funds trough token sales, operators can increase their managed property asset.</p>
+                            </div>
+                            <div class="text-block">
+                                <h5>For small investors</h5>
+                                <p> Average people can invest in property by purchasing the token. Real estate is no longer rich man's game.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+            <section class="text-center bg--dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>A trusted Operators with years of property renting business</h2>
+                            <p class="lead">
+                                We select trusted operators to use our platform to provide mutual benefit which will revolutionize the property market.
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-center bg--dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-inline list-inline--images">
+                                <li>
+                                    <img alt="Image" src="img/partner-1.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="img/partner-5.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="img/partner-7.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="img/partner-4.png" />
+                                </li>
+                                <li>
+                                    <img alt="Image" src="img/partner-6.png" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>            
+            <section class=" ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slider slider--inline-arrows" data-arrows="true">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="testimonial row justify-content-center">
+                                            <div class="col-lg-2 col-md-4 col-6 text-center">
+                                                <img class="testimonial__image" alt="Image" src="img/avatar-round-1.png" />
+                                            </div>
+                                            <div class="col-lg-7 col-md-8 col-12">
+                                                <span class="h3">&ldquo;We grow 300% in managed asset and double our income in two years by using Covvest to raise fund for our rental business.&rdquo;
+                                                </span>
+                                                <h5>Robert Aung</h5>
+                                                <span>Property Manager</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="testimonial row justify-content-center">
+                                            <div class="col-lg-2 col-md-4 col-6 text-center">
+                                                <img class="testimonial__image" alt="Image" src="img/avatar-round-4.png" />
+                                            </div>
+                                            <div class="col-lg-7 col-md-8 col-12">
+                                                <span class="h3">&ldquo;I can invest in property will small money. I know it will raise up and I already got the return.&rdquo;
+                                                </span>
+                                                <h5>Su Lin</h5>
+                                                <span>Token Buyer</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="testimonial row justify-content-center">
+                                            <div class="col-lg-2 col-md-4 col-6 text-center">
+                                                <img class="testimonial__image" alt="Image" src="img/avatar-round-3.png" />
+                                            </div>
+                                            <div class="col-lg-7 col-md-8 col-12">
+                                                <span class="h3">&ldquo; With this market condition, covvest help us to sell our property unit faster than expected. This is beneficial for the whole economy.&rdquo;
+                                                </span>
+                                                <h5>Rob Vasquez</h5>
+                                                <span>Property Developer</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>            
+            <section class="bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Recent Cosed Token Sales</h2>
+                            <div class="slider" data-arrows="false" data-paging="true">
+                                <ul class="slides">
+                                    <li class="col-md-4 col-12">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                                <h3>Project H20</h3>
+                                                <p>
+                                                    Providing clean drinking water to remote villages in Burmah
+                                                </p>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Participant</td><td>140 buyer</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+
+                                </div>
+                            </div>
+                                    </li>
+                                    <li class="col-md-4 col-12">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                                <h3>Project H20</h3>
+                                                <p>
+                                                    Providing clean drinking water to remote villages in Burmah
+                                                </p>
+                                    <table >
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Participant</td><td>140 buyer</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+
+
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+
+                                </div>
+                            </div>
+                                    </li>
+                                    <li class="col-md-4 col-12">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                                <h3>Project H20</h3>
+                                                <p>
+                                                    Providing clean drinking water to remote villages in Burmah
+                                                </p>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Participant</td><td>140 buyer</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+
+                                </div>
+                            </div>
+                                    </li>
+                                    <li class="col-md-4 col-12">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                                <h3>Project H20</h3>
+                                                <p>
+                                                    Providing clean drinking water to remote villages in Burmah
+                                                </p>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Participant</td><td>140 buyer</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+
+                                </div>
+                            </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end of row-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>            
+            <section class="bg--primary">
+                <div class="container">
+                    <div class="text-center">
+                        <h2>Current Token sales</h2> 
+                    </div>   <br><br>                 
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                                <h3>Project H20</h3>
+                                                <p>
+                                                    Providing clean drinking water to remote villages in Burmah
+                                                </p>
+                                    <table>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>                                        
+                                        <tr><td>Value</td><td>200,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td colspan="2">                                    <div class="progress">
+                                      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div></td></tr>
+
+                                    </table>
+
+                                    <div class="text-center">
+                                        <a class="btn btn--primary type--uppercase" href="/projectdetail">
+                                        <span class="btn__text">Buy Now</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                                <h3>Project H20</h3>
+                                                <p>
+                                                    Providing clean drinking water to remote villages in Burmah
+                                                </p>
+                                    <table>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>                                        
+                                        <tr><td>Value</td><td>200,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td colspan="2">                                    <div class="progress">
+                                      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div></td></tr>
+
+                                    </table>
+
+                                    <div class="text-center">
+                                        <a class="btn btn--primary type--uppercase" href="/projectdetail">
+                                        <span class="btn__text">Buy Now</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                                <h3>Project H20</h3>
+                                                <p>
+                                                    Providing clean drinking water to remote villages in Burmah
+                                                </p>
+                                    <table>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>                                        
+                                        <tr><td>Value</td><td>200,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td colspan="2">                                    <div class="progress">
+                                      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    </div></td></tr>
+
+                                    </table>
+
+                                    <div class="text-center">
+                                        <a class="btn btn--primary type--uppercase" href="/projectdetail">
+                                        <span class="btn__text">Buy Now</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+            <section class="bg--secondary">
+                <div class="container">
+                    <div class="text-center">
+                        <h2>Upcoming Token sales</h2> 
+                    </div>   <br><br>                 
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Amara Y1</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room3.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>The Residence 12</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room4.jpeg">
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h3>Neptune 7</h3>
+                                    <table>
+                                        <tr><td>Value</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Fund raised</td><td>100,000,000 MMK</td></tr>
+                                        <tr><td>Location</td><td>Yankin, Yangon</td></tr>
+                                        <tr><td>Operator</td><td>Comfy Rental</td></tr>
+                                        <tr><td>Start Date</td><td>13 June 2018</td></tr>
+                                        <tr><td>End Date</td><td>14 July 2018</td></tr>
+
+                                    </table>
+
+                                    <h5 class="text-center">Target Achievement</h5><br>
+                                    <div class="progress">
+                                      <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10"></div>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <a class="btn  btn--primary" href="#">
+                                        <span class="btn__text">Detail Information</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                    <div class="text-center">
+                        <a class="btn btn--primary-1 btn--lg" href="#">
+                            <span class="btn__text">BROWSE OTHER UPCOMING PROJECTS</span>
+                        </a>
+                    </div> 
+            </section>                        
+            <section class="text-center imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-6">
+                            <div class="cta">
+                                <a class="btn btn--primary btn--lg type--uppercase" href="#purchase-template"> <span class="btn__text">
+                            Purchase Stack
+                        </span> <span class="label">$18 USD</span> </a>
+                                <p class="lead"> Each purchase of Stack comes with six months free support — and a lifetime of free content and bug-fix updates. </p>
+                                <p class="type--fine-print">or check out <a href="index.html">more demos</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>

@@ -1,0 +1,7 @@
+<div class="container">
+<h2>Edit Operator</h2>
+
+<%= render "form.html", Map.put(assigns, :action, operator_path(@conn, :update, @operator)) %>
+
+<span><%= link "Back", to: operator_path(@conn, :index) %></span>
+</div>

@@ -56,8 +56,8 @@
                                                     <div class="row">
                                                         <div class="dropdown__content col-lg-2">
                                                             <ul class="menu-vertical">
-                                                                <li> <a href="#">All Projects</a> </li>
-                                                                 <li> <a href="#">All Operators</a> </li>
+                                                                <li> <a href="/projects">All Projects</a> </li>
+                                                                 <li> <a href="/operators">All Operators</a> </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -136,8 +136,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-7"> <span class="type--fine-print">© <span class="update-year"></span> Stack Inc.</span> <a class="type--fine-print" href="#">Privacy Policy</a> <a class="type--fine-print" href="#">Legal</a> </div>
-                        <div class="col-sm-5 text-right text-center-xs"> <a class="type--fine-print" href="#">support@stack.io</a> </div>
+                        <div class="col-sm-7"> <span class="type--fine-print">© <span class="update-year"></span> Covvest Inc.</span> <a class="type--fine-print" href="#">Privacy Policy</a> <a class="type--fine-print" href="#">Legal</a> </div>
+                        <div class="col-sm-5 text-right text-center-xs"> <a class="type--fine-print" href="#">support@covvest.io</a> </div>
                     </div>
                 </div>
             </footer>

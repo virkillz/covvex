@@ -1,0 +1,119 @@
+<%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= label f, :name, class: "control-label" %>
+    <%= text_input f, :name, class: "form-control" %>
+    <%= error_tag f, :name %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :tagline, class: "control-label" %>
+    <%= text_input f, :tagline, class: "form-control" %>
+    <%= error_tag f, :tagline %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :join_date, class: "control-label" %>
+    <%= date_select f, :join_date, class: "form-control" %>
+    <%= error_tag f, :join_date %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :email, class: "control-label" %>
+    <%= text_input f, :email, class: "form-control" %>
+    <%= error_tag f, :email %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :token_sale, class: "control-label" %>
+    <%= number_input f, :token_sale, class: "form-control" %>
+    <%= error_tag f, :token_sale %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :pic_name, class: "control-label" %>
+    <%= text_input f, :pic_name, class: "form-control" %>
+    <%= error_tag f, :pic_name %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :pic_role, class: "control-label" %>
+    <%= text_input f, :pic_role, class: "form-control" %>
+    <%= error_tag f, :pic_role %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :pic_description, class: "control-label" %>
+    <%= text_input f, :pic_description, class: "form-control" %>
+    <%= error_tag f, :pic_description %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :phone_number, class: "control-label" %>
+    <%= text_input f, :phone_number, class: "form-control" %>
+    <%= error_tag f, :phone_number %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :address, class: "control-label" %>
+    <%= text_input f, :address, class: "form-control" %>
+    <%= error_tag f, :address %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :company_reg_id, class: "control-label" %>
+    <%= text_input f, :company_reg_id, class: "form-control" %>
+    <%= error_tag f, :company_reg_id %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :nrc, class: "control-label" %>
+    <%= text_input f, :nrc, class: "form-control" %>
+    <%= error_tag f, :nrc %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :picture, class: "control-label" %>
+    <%= text_input f, :picture, class: "form-control" %>
+    <%= error_tag f, :picture %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :description, class: "control-label" %>
+    <%= text_input f, :description, class: "form-control" %>
+    <%= error_tag f, :description %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :number_asset, class: "control-label" %>
+    <%= number_input f, :number_asset, class: "form-control" %>
+    <%= error_tag f, :number_asset %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :total_profit_shared, class: "control-label" %>
+    <%= number_input f, :total_profit_shared, class: "form-control" %>
+    <%= error_tag f, :total_profit_shared %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :total_asset_value, class: "control-label" %>
+    <%= number_input f, :total_asset_value, class: "form-control" %>
+    <%= error_tag f, :total_asset_value %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :extra_string, class: "control-label" %>
+    <%= text_input f, :extra_string, class: "form-control" %>
+    <%= error_tag f, :extra_string %>
+  </div>
+
+  <div class="form-group">
+    <%= submit "Submit", class: "btn btn-primary" %>
+  </div>
+<% end %>

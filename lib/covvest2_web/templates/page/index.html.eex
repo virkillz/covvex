@@ -47,49 +47,8 @@
                         </div>
                     </div>
                 </div>
-            </section>            
-            <section class="text-center bg--dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2>A trusted Operators with years of property renting business</h2>
-                            <p class="lead">
-                                We select trusted operators to use our platform to provide mutual benefit which will revolutionize the property market.
-                            </p>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>
-            <section class="text-center bg--dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <ul class="list-inline list-inline--images">
-                                <li>
-                                    <img alt="Image" src="img/partner-1.png" />
-                                </li>
-                                <li>
-                                    <img alt="Image" src="img/partner-5.png" />
-                                </li>
-                                <li>
-                                    <img alt="Image" src="img/partner-7.png" />
-                                </li>
-                                <li>
-                                    <img alt="Image" src="img/partner-4.png" />
-                                </li>
-                                <li>
-                                    <img alt="Image" src="img/partner-6.png" />
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--end of row-->
-                </div>
-                <!--end of container-->
-            </section>            
-            <section class=" ">
+            </section>                       
+            <section class="bg--dark">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -98,7 +57,7 @@
                                     <li>
                                         <div class="testimonial row justify-content-center">
                                             <div class="col-lg-2 col-md-4 col-6 text-center">
-                                                <img class="testimonial__image" alt="Image" src="img/avatar-round-1.png" />
+                                                <img class="testimonial__image" alt="Image" src="/images/avatar8.jpeg" />
                                             </div>
                                             <div class="col-lg-7 col-md-8 col-12">
                                                 <span class="h3">&ldquo;We grow 300% in managed asset and double our income in two years by using Covvest to raise fund for our rental business.&rdquo;
@@ -111,7 +70,7 @@
                                     <li>
                                         <div class="testimonial row justify-content-center">
                                             <div class="col-lg-2 col-md-4 col-6 text-center">
-                                                <img class="testimonial__image" alt="Image" src="img/avatar-round-4.png" />
+                                                <img class="testimonial__image" alt="Image" src="images/avatar9.jpeg" />
                                             </div>
                                             <div class="col-lg-7 col-md-8 col-12">
                                                 <span class="h3">&ldquo;I can invest in property will small money. I know it will raise up and I already got the return.&rdquo;
@@ -124,12 +83,12 @@
                                     <li>
                                         <div class="testimonial row justify-content-center">
                                             <div class="col-lg-2 col-md-4 col-6 text-center">
-                                                <img class="testimonial__image" alt="Image" src="img/avatar-round-3.png" />
+                                                <img class="testimonial__image" alt="Image" src="images/avatar10.jpg" />
                                             </div>
                                             <div class="col-lg-7 col-md-8 col-12">
                                                 <span class="h3">&ldquo; With this market condition, covvest help us to sell our property unit faster than expected. This is beneficial for the whole economy.&rdquo;
                                                 </span>
-                                                <h5>Rob Vasquez</h5>
+                                                <h5>Ngwe Yu</h5>
                                                 <span>Property Developer</span>
                                             </div>
                                         </div>
@@ -150,9 +109,9 @@
                             <div class="slider" data-arrows="false" data-paging="true">
                                 <ul class="slides">
                                     <li class="col-md-4 col-12">
-                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room6.jpeg">
                                 <div class="feature__body boxed boxed--lg boxed--border">
-                                                <h3>Project H20</h3>
+                                                <h3>Lotte AV1</h3>
                                                 <p>
                                                     Providing clean drinking water to remote villages in Burmah
                                                 </p>
@@ -173,9 +132,9 @@
                             </div>
                                     </li>
                                     <li class="col-md-4 col-12">
-                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room7.jpeg">
                                 <div class="feature__body boxed boxed--lg boxed--border">
-                                                <h3>Project H20</h3>
+                                                <h3>Star City D20</h3>
                                                 <p>
                                                     Providing clean drinking water to remote villages in Burmah
                                                 </p>
@@ -198,9 +157,9 @@
                             </div>
                                     </li>
                                     <li class="col-md-4 col-12">
-                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room8.jpeg">
                                 <div class="feature__body boxed boxed--lg boxed--border">
-                                                <h3>Project H20</h3>
+                                                <h3>City Residence A1</h3>
                                                 <p>
                                                     Providing clean drinking water to remote villages in Burmah
                                                 </p>
@@ -260,7 +219,7 @@
                     </div>   <br><br>                 
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room10.jpeg">
                                 <div class="feature__body boxed boxed--lg boxed--border">
                                                 <h3>Project H20</h3>
                                                 <p>
@@ -289,7 +248,7 @@
                         <div class="col-md-4">
                             <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
                                 <div class="feature__body boxed boxed--lg boxed--border">
-                                                <h3>Project H20</h3>
+                                                <h3>Amara Y1</h3>
                                                 <p>
                                                     Providing clean drinking water to remote villages in Burmah
                                                 </p>
@@ -314,9 +273,9 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="feature feature-1"> <img alt="Image" src="images/room1.jpeg">
+                            <div class="feature feature-1"> <img alt="Image" src="images/room9.jpeg">
                                 <div class="feature__body boxed boxed--lg boxed--border">
-                                                <h3>Project H20</h3>
+                                                <h3>The Residence P12</h3>
                                                 <p>
                                                     Providing clean drinking water to remote villages in Burmah
                                                 </p>

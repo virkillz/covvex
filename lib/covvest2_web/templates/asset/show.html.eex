@@ -1,0 +1,90 @@
+<div class="container">
+<h2>Show Asset</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @asset.name %>
+  </li>
+
+  <li>
+    <strong>Blockchain:</strong>
+    <%= @asset.blockchain_id %>
+  </li>
+
+  <li>
+    <strong>Tagline:</strong>
+    <%= @asset.tagline %>
+  </li>
+
+  <li>
+    <strong>Address:</strong>
+    <%= @asset.address %>
+  </li>
+
+  <li>
+    <strong>Remaining token:</strong>
+    <%= @asset.remaining_token %>
+  </li>
+
+  <li>
+    <strong>Token supply:</strong>
+    <%= @asset.token_supply %>
+  </li>
+
+  <li>
+    <strong>Features:</strong>
+    <%= @asset.features %>
+  </li>
+
+  <li>
+    <strong>Property values:</strong>
+    <%= @asset.property_values %>
+  </li>
+
+  <li>
+    <strong>Status:</strong>
+    <%= @asset.status %>
+  </li>
+
+  <li>
+    <strong>Fundraising target:</strong>
+    <%= @asset.fundraising_target %>
+  </li>
+
+  <li>
+    <strong>Fundraised:</strong>
+    <%= @asset.fundraised %>
+  </li>
+
+  <li>
+    <strong>Fundraising start date:</strong>
+    <%= @asset.fundraising_start_date %>
+  </li>
+
+  <li>
+    <strong>Fundraising end date:</strong>
+    <%= @asset.fundraising_end_date %>
+  </li>
+
+  <li>
+    <strong>Renting start date:</strong>
+    <%= @asset.renting_start_date %>
+  </li>
+
+  <li>
+    <strong>Description:</strong>
+    <%= @asset.description %>
+  </li>
+
+  <li>
+    <strong>Picture:</strong>
+    <%= @asset.picture %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: asset_path(@conn, :edit, @asset) %></span>
+<span><%= link "Back", to: asset_path(@conn, :index) %></span>
+</div>

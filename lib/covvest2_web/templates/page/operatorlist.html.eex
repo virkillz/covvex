@@ -28,42 +28,36 @@
                         <section class="bg--secondary">
                 <div class="container">
                     <div class="text-center">
-                        <h2>All Projects</h2> 
+                        <h2>All Operators</h2> 
                     </div>   <br><br>                 
                     <div class="row">
 
-            <%= for project <- @projects do %>
+<%= for operator <- @operators do %>
                         <div class="col-md-4">
-                            <div class="feature feature-1"> <img alt="Image" src="<%= project.picture %>">
+                            <div class="feature feature-1"> 
                                 <div class="feature__body boxed boxed--lg boxed--border">
-                                                <h3><%= project.name %></h3>
-                                                <p>
-                                                    <%= project.tagline %>
-                                                </p>
+                                    <img alt="Image" src="<%= operator.picture %>">
+                                    <h3 class="text-center"><%= operator.name %></h3>
+                                    <p class="text-center"><%= operator.tagline %></p>
                                     <table>
-                                        <tr><td>Operator</td><td><%= project.operator_id %></td></tr>
-                                        <tr><td>Start Date</td><td><%= project.fundraising_start_date %></td></tr>
-                                        <tr><td>End Date</td><td><%= project.fundraising_end_date %></td></tr>                                        
-                                        <tr><td>Value</td><td><%= project.fundraising_target %> MMK</td></tr>
-                                        <tr><td>Fund raised</td><td><%= project.fundraised %> MMK</td></tr>
-                                        <tr><td colspan="2">                                    <div class="progress">
-                                      <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: <%= (project.fundraised / project.fundraising_target) * 100 %>%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><%= (project.fundraised / project.fundraising_target) * 100 %>%</div>
-                                    </div></td></tr>
+                                        <tr><td>Asset Managed</td><td><%= operator.number_asset %></td></tr>
+                                        <tr><td>Fund raised</td><td><%= operator.total_asset_value %></td></tr>
+                                        <tr><td>Total Asset value</td><td><%= operator.total_asset_value %></td></tr>
 
                                     </table>
 
                                     <div class="text-center">
-                                        <a class="btn btn--primary type--uppercase" href="/projects/<%= project.id %>">
+                                        <a class="btn  btn--primary" href="/operators/<%= operator.id %>">
                                         <span class="btn__text">Detail Information</span>
                                         </a>
                                     </div>
-
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
+<% end %>
 
 
-                            <% end %>
+
 
                     </div>
                 </div>

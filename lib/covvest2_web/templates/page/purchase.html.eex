@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center">
+                <h2>Token Purchase Confirmation</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+            <section class="switchable bg--secondary">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-5"> <img alt="Image" class="border--round box-shadow-wide" src="<%= static_path(@conn, "/images/room1.jpeg") %>"> 
+
+                        </div>
+                        <div class="col-md-6">
+                                <h2>Amara Y1</h2>                                                                
+                                    <table class="border--round table--alternate-row">
+                                        <tr><td>Asset Code</td><td>16235-123 <a href="#">(Check on blockchain)</a></td></tr>
+                                        <tr><td>Token Supply</td><td>100,000 Token</td></tr>
+                                        <tr><td>Price per Token</td><td>1000 MMK</td></tr>
+                                        <tr><td>Remaining Token</td><td>30000 Token</td></tr>
+
+                                    </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<div class="row mt--2">
+    <div class="col-md-12">
+        <div class="boxed boxed--border cart-total">
+            <div class="row">
+                <div class="col-6">
+                    <span class="h5">Token Purchase:</span>
+                </div>
+                <div class="col-6 text-right">
+                    <span>5000 MMK</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <span class="h5">Handling Fee (Flat):</span>
+                </div>
+                <div class="col-6 text-right">
+                    <span>1000 MMK</span>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-6">
+                    <span class="h5">Total:</span>
+                </div>
+                <div class="col-6 text-right">
+                    <span class="h5">6000 MMK</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                        <div class="row justify-content-end">
+                            <div class="col-lg-2 text-right text-center-xs">
+                                <a href="/purchasereport">
+                                    <button type="submit" class="btn btn--primary">Proceed &raquo;</button>
+                                </a>
+                            </div>
+                        </div>
+</div>

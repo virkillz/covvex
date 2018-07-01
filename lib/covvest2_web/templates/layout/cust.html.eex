@@ -46,66 +46,22 @@
                                         Single Link
                                     </a> </li>
                                         <li class="dropdown"> <span class="dropdown__trigger">
-                                        Dropdown Slim
+                                        Masterdata
                                     </span>
                                             <div class="dropdown__container">
                                                 <div class="container">
                                                     <div class="row">
                                                         <div class="dropdown__content col-lg-2">
                                                             <ul class="menu-vertical">
-                                                                <li> <a href="#">Single Link</a> </li>
+                                                                <li> <a href="/admin/operators">Operators</a> </li>
+                                                                <li> <a href="/admin/assets">Assets</a> </li>                                                                
                                                             </ul>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="dropdown"> <span class="dropdown__trigger">
-                                        Dropdown Wide
-                                    </span>
-                                            <div class="dropdown__container">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="dropdown__content row w-100">
-                                                            <div class="col-lg-3">
-                                                                <h5>Menu Title</h5>
-                                                                <ul class="menu-vertical">
-                                                                    <li> <a href="#">Single Link</a> </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <h5>Menu Title</h5>
-                                                                <ul class="menu-vertical">
-                                                                    <li> <a href="#">Single Link</a> </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <h5>Menu Title</h5>
-                                                                <ul class="menu-vertical">
-                                                                    <li> <a href="#">Single Link</a> </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <h5>Menu Title</h5>
-                                                                <ul class="menu-vertical">
-                                                                    <li> <a href="#">Single Link</a> </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="bar__module">
-                                    <a class="btn btn--sm btn--primary type--uppercase" href="/register"> <span class="btn__text">
-                                    REGISTER
-                                </span> </a>                                    
-                                    <a class="btn btn--sm btn--primary type--uppercase" href="/login"> <span class="btn__text">
-                                    LOGIN
-                                </span> </a>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -119,25 +75,8 @@
             <footer class="text-center-xs space--xs">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-7">
-                            <ul class="list-inline">
-                                <li> <a href="#"><span class="h6 type--uppercase">About</span></a> </li>
-                                <li> <a href="#"><span class="h6 type--uppercase">Careers</span></a> </li>
-                                <li> <a href="#"><span class="h6 type--uppercase">Support</span></a> </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-5 text-right text-center-xs">
-                            <ul class="social-list list-inline list--hover">
-                                <li><a href="#"><i class="socicon socicon-google icon icon--xs"></i></a></li>
-                                <li><a href="#"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
-                                <li><a href="#"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
-                                <li><a href="#"><i class="socicon socicon-instagram icon icon--xs"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-7"> <span class="type--fine-print">© <span class="update-year"></span> Stack Inc.</span> <a class="type--fine-print" href="#">Privacy Policy</a> <a class="type--fine-print" href="#">Legal</a> </div>
-                        <div class="col-sm-5 text-right text-center-xs"> <a class="type--fine-print" href="#">support@stack.io</a> </div>
+                        <div class="col-sm-7"> <span class="type--fine-print">© <span class="update-year"></span> VirKill Inc.</span> <a class="type--fine-print" href="#">Privacy Policy</a> <a class="type--fine-print" href="#">Legal</a> </div>
+                        <div class="col-sm-5 text-right text-center-xs"> <a class="type--fine-print" href="#">virkill@gmail.com</a> </div>
                     </div>
                 </div>
             </footer>

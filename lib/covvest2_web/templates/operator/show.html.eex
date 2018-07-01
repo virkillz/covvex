@@ -1,0 +1,100 @@
+<div class="container">
+<h2>Show Operator</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @operator.name %>
+  </li>
+
+  <li>
+    <strong>Tagline:</strong>
+    <%= @operator.tagline %>
+  </li>
+
+  <li>
+    <strong>Join date:</strong>
+    <%= @operator.join_date %>
+  </li>
+
+  <li>
+    <strong>Email:</strong>
+    <%= @operator.email %>
+  </li>
+
+  <li>
+    <strong>Token sale:</strong>
+    <%= @operator.token_sale %>
+  </li>
+
+  <li>
+    <strong>Pic name:</strong>
+    <%= @operator.pic_name %>
+  </li>
+
+  <li>
+    <strong>Pic role:</strong>
+    <%= @operator.pic_role %>
+  </li>
+
+  <li>
+    <strong>Pic description:</strong>
+    <%= @operator.pic_description %>
+  </li>
+
+  <li>
+    <strong>Phone number:</strong>
+    <%= @operator.phone_number %>
+  </li>
+
+  <li>
+    <strong>Address:</strong>
+    <%= @operator.address %>
+  </li>
+
+  <li>
+    <strong>Company reg:</strong>
+    <%= @operator.company_reg_id %>
+  </li>
+
+  <li>
+    <strong>Nrc:</strong>
+    <%= @operator.nrc %>
+  </li>
+
+  <li>
+    <strong>Picture:</strong>
+    <%= @operator.picture %>
+  </li>
+
+  <li>
+    <strong>Description:</strong>
+    <%= @operator.description %>
+  </li>
+
+  <li>
+    <strong>Number asset:</strong>
+    <%= @operator.number_asset %>
+  </li>
+
+  <li>
+    <strong>Total profit shared:</strong>
+    <%= @operator.total_profit_shared %>
+  </li>
+
+  <li>
+    <strong>Total asset value:</strong>
+    <%= @operator.total_asset_value %>
+  </li>
+
+  <li>
+    <strong>Extra string:</strong>
+    <%= @operator.extra_string %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: operator_path(@conn, :edit, @operator) %></span>
+<span><%= link "Back", to: operator_path(@conn, :index) %></span>
+</div>

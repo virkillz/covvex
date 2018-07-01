@@ -12,21 +12,22 @@
                                         <tr><td>Remaining Token</td><td>30000 Token</td></tr>
 
                                     </table>
-                            <div class="input-number">
-    <input type="number" name="quantity" placeholder="Quantity" value="1" min="1" max="10000" />
-    <div class="input-number__controls">
-        <span class="input-number__increase"><i class="stack-up-open"></i></span>
-        <span class="input-number__decrease"><i class="stack-down-open"></i></span>
-    </div>
-    <br><br>
-    <div>
-        <div class="text-center">
-    <a class="btn btn--primary btn--lg" href="#">
-        <span class="btn__text">BUY TOKEN</span>
-    </a>
-</div>
-    </div>
-</div>
+                                    <div class="input-number">
+                                        <input type="number" name="quantity" placeholder="Quantity" value="1" min="1" max="10000" />
+                                        <div class="input-number__controls">
+                                            <span class="input-number__increase"><i class="stack-up-open"></i></span>
+                                            <span class="input-number__decrease"><i class="stack-down-open"></i></span>
+                                        </div>
+                                        <br><br>
+                                        <div>
+
+                                        <div class="text-center">
+                                        <a class="btn btn--primary btn--lg" href="/purchase">
+                                            <span class="btn__text">BUY TOKEN</span>
+                                        </a>
+                                    </div>
+                                        </div>
+                                    </div>
                         </div>
                         <div class="col-md-6">
                                                                 <h2>Amara Y1</h2>

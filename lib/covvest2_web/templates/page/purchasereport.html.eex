@@ -1,0 +1,23 @@
+        <div class="container">
+        <div class="boxed bg--secondary boxed--lg boxed--border">
+        	<h1 class="text-center">Purchase Completed!</h1>
+            <p class="text-center">
+                Your purchase has been finished
+                 </p>
+
+                <table>
+                	<tr><td>Transaction Hash</td><td><a href="#"> 36745895903214892048</a></td></tr>
+                	<tr><td>Token name</td><td>Amara Y1</td></tr>
+                	<tr><td>Amount</td><td>5</td></tr>
+
+                </table>
+<div class="text-center">
+                <a class="btn btn--primary" href="http://explorer.sendkudo.org/Ideachain/tx/9b3f5c8f13a8824450f4fe374411bd3bddf79b1834fa2b1dd22762b709e932a4" target="_blank">
+	<span class="btn__text">See Block Explorer</span>
+</a>
+                <a class="btn btn--primary" href="/userprofile">
+	<span class="btn__text">Go to profile</span>
+</a>
+           </div>
+        </div>
+    </div>

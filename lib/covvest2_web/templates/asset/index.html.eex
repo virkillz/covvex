@@ -1,0 +1,46 @@
+<div class="container">
+<h2>Listing Assets</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Blockchain</th>
+      <th>Tagline</th>
+      <th>Address</th>
+      <th>Remaining token</th>
+      <th>Token supply</th>
+      <th>Features</th>
+      <th>Property values</th>
+      <th>Status</th>
+
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for asset <- @assets do %>
+    <tr>
+      <td><%= asset.name %></td>
+      <td><%= asset.blockchain_id %></td>
+      <td><%= asset.tagline %></td>
+      <td><%= asset.address %></td>
+      <td><%= asset.remaining_token %></td>
+      <td><%= asset.token_supply %></td>
+      <td><%= asset.features %></td>
+      <td><%= asset.property_values %></td>
+      <td><%= asset.status %></td>
+
+
+      <td class="text-right">
+        <span><%= link "Show", to: asset_path(@conn, :show, asset), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: asset_path(@conn, :edit, asset), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: asset_path(@conn, :delete, asset), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Asset", to: asset_path(@conn, :new) %></span>
+</div>
